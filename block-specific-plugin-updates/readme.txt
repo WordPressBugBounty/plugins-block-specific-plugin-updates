@@ -2,7 +2,7 @@
 Contributors: dnesscarkey
 Tags: block plugin update, disable plugin update, hide plugin update notification, plugin update hider.
 Requires at least: 3.0
-Tested up to: 6.6.1
+Tested up to: 6.7.1
 Stable tag: 3.3.2
 
 This plugin blocks the updates for specific plugins. You can select the plugins from plugin setting page.
