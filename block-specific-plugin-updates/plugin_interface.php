@@ -7,7 +7,7 @@ if (!function_exists('get_plugins')){
 }
 
 function bpu_create_menu() {
-	add_options_page('Block Plugin Update', 'Block Plugin Update', 'administrator', __FILE__, 'bpu_settings_page');
+	add_options_page('Block Plugin Update', 'Block Plugin Update', 'manage_options', plugin_basename(__FILE__), 'bpu_settings_page');
 	add_action('admin_init', 'register_bpusettings');
 }
 
@@ -18,7 +18,7 @@ function register_bpusettings() {
 function bpu_settings_page() {
 	global $updated;
 	$bpu_update_blocked_plugins 		= get_option('bpu_update_blocked_plugins');
-	$bpu_update_blocked_plugins_array	= explode('###',$bpu_update_blocked_plugins);
+	$bpu_update_blocked_plugins_array	= ! empty( $bpu_update_blocked_plugins ) ? explode('###', $bpu_update_blocked_plugins) : array();
 	$plugins = get_plugins ();
 	include('includes/bspu_header.php');
 	include('includes/bspu_plugin_select.php');

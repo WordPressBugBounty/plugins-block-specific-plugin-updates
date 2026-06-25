@@ -2,8 +2,10 @@
 Contributors: dnesscarkey
 Tags: block plugin update, disable plugin update, hide plugin update notification, plugin update hider.
 Requires at least: 3.0
-Tested up to: 6.7.1
-Stable tag: 3.3.2
+Tested up to: 7.0
+Stable tag: 3.3.3
+License: GPLv2 or later
+License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
 This plugin blocks the updates for specific plugins. You can select the plugins from plugin setting page.
 
@@ -20,9 +22,6 @@ If you still any problem visit our <a href="https://wordpress.org/support/plugin
 * <a target="_blank" href="https://wordpress.org/plugins/honeypot/">WP Armour Anti Spam Plugin</a>
 * <a target="_blank" href="https://dineshkarki.com.np/jquery-validation-for-gravity-forms">jQuery Validation for Gravity Forms</a>
 * <a target="_blank" href="https://wordpress.org/plugins/jquery-validation-for-contact-form-7/">jQuery Validation For Contact Form 7</a>
-* <a target="_blank" href="https://wordpress.org/plugins/any-mobile-theme-switcher/">Any Mobile Theme Switcher</a>
-* <a target="_blank" href="https://wordpress.org/plugins/featured-image-in-rss-feed/">Featured Image In RSS Feed</a>
-* <a target="_blank" href="https://wordpress.org/plugins/add-tags-and-category-to-page/">Add Tags And Category To Page</a>
 
 == Installation ==
 
@@ -32,15 +31,20 @@ If you still any problem visit our <a href="https://wordpress.org/support/plugin
 
 == Frequently Asked Questions ==
 
-= After I save the plugin settings, all updates are gone. =
+= Do I need to logout and login for changes to take effect? =
 
-You need to logout and login to get the proper effect.
+No, the plugin cache is automatically cleared and rechecked as soon as you save settings.
 
 == Screenshots ==
 
 1. Admin Setting
 
 == Changelog ==
+
+= 3.3.3 =
+* Added license fields to plugin header.
+* Optimized plugin update query performance.
+* Added secure nonce, capability, and sanitization validation.
 
 = 3.3.2 =
 * add WP Nonce for Settings page.

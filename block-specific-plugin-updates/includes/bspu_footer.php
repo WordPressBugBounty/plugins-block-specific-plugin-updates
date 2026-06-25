@@ -8,12 +8,11 @@
                 <tr>
                 	<td>
                     	<ol>
-                        	<li>Tick checkbox to remove the plugin from the update.</em> 
-                            </li>
+                        	<li>Tick checkbox to remove the plugin from the update.</li>
                             
                             <li>Click Save Changes</li>
 
-							<li>Please logout and login to get the proper effect. We have cleared all the update information stored. So you need to logout and login again to get the updates of the plugin you want. Required only in some cases.</li>
+							<li>The update cache is cleared and rechecked automatically upon saving. If you still see cached update numbers, simply refresh your WordPress updates page.</li>
                             
                             <li>If you still have any problem visit our <a href="https://wordpress.org/support/plugin/block-specific-plugin-updates/" target="_blank">support forum</a> or you can write to us directly using our contact form.</li>
                             
@@ -48,7 +47,7 @@
 
                         Just install and activate to block spams. No additional settings required.
 
-                        <p align="right"><br/><a href="<?php echo admin_url('plugin-install.php?s=WP+Armour&tab=search'); ?>" target="_blank" class="button-primary">Install Now ( Free )</a><p>
+                        <p align="right"><br/><a href="<?php echo esc_url( admin_url( 'plugin-install.php?s=WP+Armour&tab=search' ) ); ?>" target="_blank" class="button-primary">Install Now ( Free )</a></p>
                     </td>
                 </tr>
                 </tbody>
@@ -87,9 +86,6 @@
                             <li><a target="_blank" href="https://wordpress.org/plugins/honeypot/">WP Armour Anti Spam Plugin</a></li>
                             <li><a target="_blank" href="https://dineshkarki.com.np/jquery-validation-for-gravity-forms">jQuery Validation for Gravity Forms</a></li>
                             <li><a target="_blank" href="https://wordpress.org/plugins/jquery-validation-for-contact-form-7/">jQuery Validation For Contact Form 7</a></li>
-                            <li><a target="_blank" href="https://wordpress.org/plugins/any-mobile-theme-switcher/">Any Mobile Theme Switcher</a></li>
-                            <li><a target="_blank" href="https://wordpress.org/plugins/featured-image-in-rss-feed/">Featured Image In RSS Feed</a></li>
-                            <li><a target="_blank" href="https://wordpress.org/plugins/add-tags-and-category-to-page/">Add Tags And Category To Page</a></li>
                         </ol>
                     </td>
                 </tr>
